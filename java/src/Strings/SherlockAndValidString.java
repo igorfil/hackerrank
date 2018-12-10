@@ -15,6 +15,8 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+// https://www.hackerrank.com/challenges/sherlock-and-valid-string/
+
 public class SherlockAndValidString {
     static String isValid(String s) {
         if(s.length() <= 3) return "YES";
