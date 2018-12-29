@@ -6,6 +6,8 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+// https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem
+
 public class MinimumAbsoluteDifference {
     static int minimumAbsoluteDifference(int[] arr) {
         Arrays.sort(arr);
